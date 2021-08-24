@@ -15,9 +15,6 @@
         "trevor-uehlin/lib-oauth-config": "dev-development",
         "trevor-uehlin/lib-salesforce-rest-api":"dev-development",
         "trevor-uehlin/lib-http":"dev-development",
-        "trevor-uehlin/lib-drag-drop-upload":"dev-development",
-        "trevor-uehlin/appserver-directory":"dev-development",
-        "trevor-uehlin/appserver-car": "dev-development",
-        "trevor-uehlin/appserver-jobs": "dev-development"
+        "trevor-uehlin/lib-drag-drop-upload":"dev-development"
     }
 }
