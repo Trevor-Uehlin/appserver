@@ -1,7 +1,7 @@
 {
-    "name": "clickpdx/appserver",
+    "name": "trevor-uehlin/appserver",
     "description": "A PHP application server.",
-    "type": "wordpress-theme",
+    "type": "phifty-framework",
     "minimum-stability": "dev",
     "prefer-stable": true,
     "extra": {
@@ -12,12 +12,12 @@
     },
     "require": {
         "composer/installers":"~1.0",
-        "ocdladefense/lib-oauth-config": "~2.0",
-        "ocdladefense/lib-salesforce-rest-api":"~3.0",
-        "ocdladefense/lib-http":"~3.0",
-        "ocdladefense/lib-drag-drop-upload":"dev-development",
-        "ocdladefense/appserver-directory":"dev-composer-test",
-        "ocdladefense/appserver-car": "dev-composer-test",
-        "ocdladefense/appserver-jobs": "dev-composer-test"
+        "trevor-uehlin/lib-oauth-config": "dev-development",
+        "trevor-uehlin/lib-salesforce-rest-api":"dev-development",
+        "trevor-uehlin/lib-http":"dev-development",
+        "trevor-uehlin/lib-drag-drop-upload":"dev-development",
+        "trevor-uehlin/appserver-directory":"dev-development",
+        "trevor-uehlin/appserver-car": "dev-development",
+        "trevor-uehlin/appserver-jobs": "dev-development"
     }
 }
