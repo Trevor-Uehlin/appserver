@@ -1,0 +1,72 @@
+log/
+
+# Ignore .htaccess; prefer .htaccess-example
+.htaccess
+
+# Ignore settings
+settings.js
+
+#Ignore configuration files
+config.php
+config-dev.php
+config-staging.php
+config-production.php
+config-default-*.php
+config.js
+
+login.xml
+soap-login-community-user.xml
+soap-login-admin-user.xml
+
+.vscode/
+
+#  But keep default settings.php and settings.js files
+#  config-default.php
+#  settings-default.php
+
+
+# Ignore SOAP xml files for now; maybe add them in later on?
+*.wsdl.xml
+*.wsdl*
+
+
+# Ignore the modules directory
+# Moduls get their own projects.
+modules/*
+!modules/.gitkeep
+
+# Ignore composer.lock
+composer.lock
+
+
+# Ignore node modules
+node_modules/*
+
+# Ignore vendor libraries (e.g., authorizedotnet)
+/vendor/
+
+
+# Ignore modules
+/modules/
+
+# Moduls get their own projects.
+
+#ignore content directory
+content/uploads
+content/modules
+content/emails
+content/ors
+content/output
+
+# Ignore any logging files.
+phplog*
+
+#ignore the log directory
+/log/
+log/*
+
+test.php
+content/themes/highscope
+
+
+/config/modules/

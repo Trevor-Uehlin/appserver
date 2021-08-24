@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Using modal cc form</title>
+		<link href="/examples/assets/css/ux.css" type="text/css" rel="stylesheet" />
+		<script type="text/javascript">
+			window.appModules = {};
+			function define(deps,mod){
+				mod();
+			}
+		</script>
+		<script src="//membertest.ocdla.org/sites/all/libraries/library/event.js">
+		</script>
+		<script src="//membertest.ocdla.org/sites/all/libraries/library/view-core.js">
+		</script>
+		<script src="/examples/assets/js/menu.js">
+		</script>
+	</head>
+	<body>
+		<div id="header">
+			<div id="logo">AppServer GUI</div>
+			<div id="banner">&nbsp;
+			</div>
+		</div>
+		<div id="page">
+		
+			<div class="menu-left">&nbsp;</div>
+			
+			<div id="stage">&nbsp;</div>
+
+
+		</div>
+		
+		<div id="footer">
+		 	<div class="content">
+		 		<span style="font-size:smaller;">&copy;&nbsp;2019</span>
+		 	</div>
+		</div>
+	</body>
+	
+	<script type="text/javascript">
+	
+	// domReady(renderMenu);
+	
+	function renderMenu() {
+		var vnode = createMenu();
+		var node = createElement( vnode );
+		document.getElementById("header").appendChild(node);
+	}
+	
+	renderMenu();
+
+	</script>
+</html>
